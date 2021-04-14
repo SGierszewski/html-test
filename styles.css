@@ -1,4 +1,36 @@
+/* links have own default attributes, e.g. text-decoration and color, which is inherited*/
+a {
+  text-decoration: none;
+}
+
 body {
   background: rgb(32, 35, 41);
   color: rgb(158, 158, 158);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: rgb(255, 255, 255);
+  color: rgb(51, 51, 51);
+}
+
+.navigation {
+  list-style: none;
+  background: rgb(255, 255, 255);
+}
+
+#hero {
+  background: rgb(255, 255, 255);
+  color: rgb(32, 36, 40);
+}
+
+article {
+  background: rgb(59, 62, 67);
+}
+
+footer {
+}
+
+h2 {
+  color: white;
 }

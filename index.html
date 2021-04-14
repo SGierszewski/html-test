@@ -8,32 +8,41 @@
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <nav>
-        <!-- set as unoirdered list -->
-        <!-- Link to separate pages: documentation.html, about.html and help-us.html-->
-        <a href="/documentation/"><img src="#" alt="" /></a>
-        <!-- # placeholder -->
-        <a href="/documentation/">Docs</a> | <a href="/about/">About</a> |
-        <a href="/help-us/">HELP US</a>
-        |<!-- only looks like a button; anchor vs button -->
+        <ul class="navigation">
+          <li>
+            <a href="/index/"><img src="#" alt="" /></a>
+          </li>
+          <li>
+            <a href="/documentation/">Docs</a>
+          </li>
+          <li>
+            <a href="/documentation/">About</a>
+          </li>
+          <li>
+            <a href="/documentation/">HELP US</a>
+          </li>
+        </ul>
       </nav>
     </header>
 
     <main>
-      <section>
+      <section id="hero">
         <h1>The Rick and Morty API</h1>
       </section>
 
-      <section>
-        <article>
+      <section class="characters">
+        <article class="character">
           <img
             src="https://rickandmortyapi.com/api/character/avatar/424.jpeg"
             alt="A piece of pizza on a chair"
           />
-          <h2>Pizza-person</h2>
-          <!-- class dead/alive in CSS?!? -->
-          <!--<div class="alive">Alive - Humanoid</div> -->
+          <h2>
+            <a href="https://rickandmortyapi.com/api/location/71">
+              Pizza-person</a
+            >
+          </h2>
           <p>Alive - Humanoid</p>
           <h3>Last known location:</h3>
           <a href="https://rickandmortyapi.com/api/location/71"
@@ -43,7 +52,7 @@
           <p>Close Rick-counters of the Rick Kind</p>
         </article>
 
-        <article>
+        <article class="character">
           <img
             src="https://rickandmortyapi.com/api/character/avatar/464.jpeg"
             alt=""
