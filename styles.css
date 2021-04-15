@@ -7,17 +7,26 @@
 /* links have own default attributes, e.g. text-decoration and color, which is inherited*/
 a {
   text-decoration: none;
+  color: rgb(158, 158, 158);
+}
+
+.navigation a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
 }
 
 body {
+  margin: 0;
   background: rgb(32, 35, 41);
   color: rgb(158, 158, 158);
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
+.header {
   background: rgb(255, 255, 255);
   color: rgb(51, 51, 51);
+  margin: 0;
+  padding: 0, 27px;
 }
 
 .navigation {
@@ -28,15 +37,33 @@ header {
 #hero {
   background: rgb(255, 255, 255);
   color: rgb(32, 36, 40);
+  margin: 0;
+  padding: 20px;
+  font-size: 3rem;
+  text-align: center;
 }
 
-article {
-  background: rgb(59, 62, 67);
+.footer {
+  background: rgb(15, 16, 17);
+  color: rgb(158, 158, 158);
+  padding: 5rem;
+  text-align: center;
 }
 
-footer {
+.footer-list {
+  list-style: none;
 }
 
 h2 {
   color: white;
+}
+
+.character {
+  background: rgb(59, 62, 67);
+  margin: 5rem;
+  padding: 5, 2, 5, 5rem;
+}
+
+.navigation {
+  margin: 0;
 }
