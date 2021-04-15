@@ -58,10 +58,37 @@ h2 {
   color: white;
 }
 
+.characters {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fit, 600px);
+}
+
 .character {
   background: rgb(59, 62, 67);
-  margin: 5rem;
-  padding: 5, 2, 5, 5rem;
+  padding: 5, 2, 5, 5em;
+  margin: 2em;
+  border-radius: 1em;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto, 1fr;
+}
+
+.character img {
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+  height: 18em;
+  width: 19em;
+}
+
+.character-info {
+  display: grid;
+  padding: 0.75em;
+  margin: 0;
+}
+
+.character-info * {
+  margin: 0;
 }
 
 .navigation {
