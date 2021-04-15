@@ -1,3 +1,9 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 /* links have own default attributes, e.g. text-decoration and color, which is inherited*/
 a {
   text-decoration: none;
